@@ -1,0 +1,33 @@
+body {
+  background: #F2F2F2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  max-width: 500px;
+}
+
+.qr-card {
+  padding: 30px;
+  border-radius: 20px;
+  background: white;
+}
+
+.qr-box {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#qrcode img {
+  width: 220px !important;
+  height: 220px !important;
+}
