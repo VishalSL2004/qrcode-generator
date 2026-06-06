@@ -13,24 +13,19 @@
   />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-
   <div class="container main-container">
-
     <div class="card qr-card shadow-lg">
-
       <h2 class="text-center mb-4">
         QR Code Generator
       </h2>
-
       <!-- Input -->
       <div class="mb-3">
         <label class="form-label">
           Enter Website URL
         </label>
-
         <input
           type="text"
           id="qrInput"
@@ -38,7 +33,6 @@
           placeholder="https://example.com"
         />
       </div>
-
       <!-- Button -->
       <div class="d-grid mb-4 gap-2">
         <button
@@ -53,20 +47,16 @@
         >
           Clear
         </button>
+        <button id="downloadBtn" class="btn btn-primary" onclick="downloadQR()" disabled>Download QR</button>
       </div>
       <div class="qr-box text-center">
         <div id="qrcode"></div>
       </div>
-
     </div>
-
   </div>
-
   <!-- QR Code Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
   <!-- JS -->
   <script src="./script.js"></script>
-
 </body>
 </html>

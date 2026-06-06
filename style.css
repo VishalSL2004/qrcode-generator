@@ -31,3 +31,12 @@ body {
   width: 220px !important;
   height: 220px !important;
 }
+
+button{
+  transition: all 0.3s ease;
+}
+
+button:disabled{
+  cursor: not-allowed;
+  opacity: 0.6;
+}
